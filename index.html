@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap" rel="stylesheet">
+    <title>Login no TTwitter</title>
+</head>
+<body>
+    <section class="logo_bloco">
+        <div class="logo_maior">
+            <img src = "../img/logo_tt.png" alt="Logo do TTwiter" >
+        </div>
+        <div class="bloco_branco">
+            <h4 class="titulo">Bem vindo a plataforma TTwitter</h4>
+                <form class="menu" id="menu">    
+                    <div class="campos_de_preenchimento">
+                        <div class="campos_de_preenchimento_input">
+                            <label for="email" class="texto_sobreposto">Email</label>
+                            <input type="email" id="email" class="campo_texto" placeholder="example@gmail.com"></input>
+                        </div>
+                        <div class="campos_de_preenchimento_input">
+                            <label for="password" class="texto_sobreposto">Senha</label>
+                            <input type="password" id="password" class="campo_texto_senha" placeholder="••••••••••••"></input>
+                            <img class="campo_texto_imagem" src="../img/nao_mostrar.png" >
+                        </div>
+                    </div>
+                    <p class="esqueci_minha_senha">Esqueci minha senha</p>
+                    <button class="botao_primario" type="submit" value="">Entrar</button>
+                    <a class="botao_secundario" type="button" href="cadastro.html"">Registrar</a>
+                </form>
+                <p class="termos_condicoes">Li e estou de acordo com os <a href="termos.html" class="destaque">Termos</a> e <a href="condicoesdeuso.html" class="destaque">Condições de <br> uso.</a></p>
+        </div>
+    </section>
+    <script src="../JS/main.js" defer></script>
+</body>
+</html>

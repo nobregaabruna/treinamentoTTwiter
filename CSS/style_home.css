@@ -1,0 +1,252 @@
+body {
+    background-color: #222222;
+}
+
+*{
+    margin: 0;
+}
+
+.cabecalho {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 2% 0%;
+    background: #222222;
+}
+
+.mini_logo {
+    width: 3.75rem;
+    height: 3.89706rem;
+}
+
+.barra_buscar {
+    width: 51.4375rem;
+    height: 2.6875rem;
+    padding: 0.38rem 1.38rem 0 1.38rem;
+    border-radius: 1.5625rem;
+    border: none;
+    background: #2b2b2b;
+    color: #FFFFFF;
+    background-image: url(../img/icone/icone_buscar.png);
+    background-repeat: no-repeat;
+    background-position: 98% 40%;
+    background-size: 1.875rem;
+    font-family: 'Inter' sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+.perfil {
+    display: flex;
+    align-items: flex-start;
+    padding-left: 9%;
+}
+
+.perfil_elementos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.perfil_elementos_imagem {
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 0% 20%
+}
+
+.pagina_inicial {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.menu_lateral {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 3.125rem;
+    height: 3.125rem;
+    padding: 9.25rem 75.1rem 7.5rem 2.81rem;
+}
+
+.menu_lateral_elementos {
+    display: flex;
+    flex-direction: row;
+}
+
+.menu_lateral_elementos_imagem {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding:  1rem 1.87rem;
+}
+
+.menu_lateral_elementos_texto {
+    white-space: nowrap;
+    padding:  1.25rem 5rem 0 0;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif ;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+.feed {
+    padding: 10.3rem 6.25rem 1.56rem 50rem;
+}
+
+.criar_post {
+    display: flex;
+    flex-direction: column;
+    border: 0.063rem solid #4C5C68;
+    margin: 0 0 1.563rem 0;
+}
+
+.criar_post_texto {
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 50px;
+    padding: 1% 5%;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+    background-color: #222222;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    border: none;
+}
+
+.criar_post_embaixo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2% 5% 0.5% 5%;
+}
+.criar_post_icone {
+    padding: 2% 0;
+}
+
+.criar_post_botao {
+    width: 98px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background: #1985A1;
+}
+
+.sugetao_usuarios {
+    padding: 8% 5%;
+}
+
+.sugestao_usuarios_titulo {
+    padding: 0 0 4% 0;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif ;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.adicionar_usuario {
+    display: flex;
+    flex-direction: row;
+    padding: 4%;
+}
+
+.menu_usuario {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.sugestao_usuarios_adicionar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 126px;
+    height: 30px;
+    padding: 5% 8%;
+    color: #FFFFFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.sugestao_usuarios_destaque {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 81px;
+    height: 32px;
+    padding: 5% 0 0 30% ;
+    color: #22A2F2;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.post {
+    width: 666px;
+    height: 755px;
+    border: 1px solid #4C5C68;
+    margin: 0 0 25px 0;
+}
+
+.post_superior {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.post_icone_perfil {
+    border-radius: 50%;
+    margin: 32px 20px 13px 32px;
+}
+
+.post_nome {
+    display: flex;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.post_meio {
+    display: flex;
+    align-items: center;
+    padding: 0 79px;
+}
+
+.post_interacao {
+    padding: 15px 88px 22px 88px;
+}
+
+.post_icone_esquerda {
+    padding-right: 20px;
+}
+
+.post_icone_direita {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    float: right;
+}
+
+.post_descricao {
+    width: 491.521px;
+    height: 40.465px;
+    padding: 0 88px 35px 88px;
+    color: #FFFFFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
